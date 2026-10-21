@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run Default Inspection",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/inspection protptype.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Start API Server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/inspection protptype.py",
+      "args": ["serve", "--port", "5000"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
